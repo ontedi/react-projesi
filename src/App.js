@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
+import Serkan from './Serkan';
 
 /*
 function App() {
@@ -20,21 +21,15 @@ function App() {
 class App extends Component
 {
   render(){
-    const yas = 36;
     return (
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+        <div className="ana-kapsul">
+          <header className="ana-header">
+            <img src={logo} className="ana-logo" alt="logo" />
             <p>
-            Component yöntemi ile çıktı elde edelim.
-            <br />
-            <br />
-            Benim yaşım {yas}. Bu sayıya göre 
-            {
-              yas > 35 ? " yaşlıyım" : " gencim"
-            }
+            Burası .ana-kapsul içindeki .ana-header bölümü
             </p>
           </header>
+          <Serkan />
         </div>
     );
   }
