@@ -6,6 +6,9 @@ class Serkan extends Component {
     <div>
         <div className='serkan-component'>
             Burası Serkan.js dosya içeriği
+            <form>
+                <input type={Text} name="isim" />
+            </form>
         </div>
     </div>
     );
