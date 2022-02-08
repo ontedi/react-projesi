@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
-import Serkan from './Serkan';
+import Ders1CssIslemleri from './ders1-css-islemleri';
 
 /*
 function App() {
@@ -22,14 +22,14 @@ class App extends Component
 {
   render(){
     return (
-        <div className="ana-kapsul">
-          <header className="ana-header">
+        <div className="container">
+          <header className="ana-header dn">
             <img src={logo} className="ana-logo" alt="logo" />
             <p>
             Burası .ana-kapsul içindeki .ana-header bölümü
             </p>
           </header>
-          <Serkan />
+          <Ders1CssIslemleri />
         </div>
     );
   }
