@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Ders2ComponentOlusturalim() {
+function Ders3ComponentOlusturalim() {
   return (
     <div>ders1-component-olusturalim</div>
   )
 }
-export default Ders2ComponentOlusturalim;
+export default Ders3ComponentOlusturalim;

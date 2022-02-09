@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './ders1-css-islemleri.css';
+import './ders4-css-islemleri.css';
 
-class Ders1CssIslemleri extends Component {
+class Ders4CssIslemleri extends Component {
   render() {
     return (
     <div>
@@ -26,4 +26,4 @@ class Ders1CssIslemleri extends Component {
     );
   }
 }
-export default Ders1CssIslemleri;
+export default Ders4CssIslemleri;
