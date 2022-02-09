@@ -11,5 +11,3 @@ Ders 3
 - Harici CSS dosyası ile çalışma
 - Inline CSS ile çalışma
 - Hem Inline hem de harici CSS dosyası ile çalışma
-
-örnekleri.
