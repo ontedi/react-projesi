@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
-import Ders1CssIslemleri from './ders1-css-islemleri';
 
 /*
 function App() {
@@ -29,7 +28,6 @@ class App extends Component
             Burası .ana-kapsul içindeki .ana-header bölümü
             </p>
           </header>
-          <Ders1CssIslemleri />
         </div>
     );
   }
