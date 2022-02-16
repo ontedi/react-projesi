@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Ders1MerhabaDunya extends Component {
+class Ders2MerhabaDunya extends Component {
   render() {
     return (
       <div>
@@ -10,4 +10,4 @@ class Ders1MerhabaDunya extends Component {
     )
   }
 }
-export default Ders1MerhabaDunya;
+export default Ders2MerhabaDunya;
