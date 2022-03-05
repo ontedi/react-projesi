@@ -1,11 +1,11 @@
 import './App.css';
+import Ders3JSXFormati from './ders3-jsx-formati.js'
 
 function App() {
   return (
-    <div className="container">
-      <p>
-      Ders 2: Merhaba Dünya
-      </p>
+    <div className="ana-kapsul">
+      <h1>App.js İçerisi</h1>
+      <Ders3JSXFormati />
     </div>
   );
 }
