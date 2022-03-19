@@ -4,10 +4,10 @@ Ders 1
 - ReactJS Kurulumu (https://www.ontedi.com/javascript/reactjs-ders-1-kurulum)
 
 Ders 2
-- Merhaba Dünya
+- Merhaba Dünya (https://www.ontedi.com/javascript/reactjs-ders-2-merhaba-dunya)
 
 Ders 3
-- JSX Formatı
+- JSX Formatı (https://www.ontedi.com/javascript/reactjs-ders-3-jsx-formati)
 
 Ders 4
 - CSS İşlemleri
