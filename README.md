@@ -1,7 +1,7 @@
 React ile baştan sona adım adım dersler.
 
-Ders 1
-- ReactJS Kurulumu (https://www.ontedi.com/javascript/reactjs-ders-1-kurulum)
+Ders 1 (https://www.ontedi.com/javascript/reactjs-ders-1-kurulum)
+- ReactJS Kurulumu
 
 Ders 2
 - Merhaba Dünya (https://www.ontedi.com/javascript/reactjs-ders-2-merhaba-dunya)
