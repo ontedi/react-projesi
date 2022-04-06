@@ -3,7 +3,7 @@ import React from 'react'
 function Ders5ComponentOlusturalim() {
   return (
     <div>
-      <h1>Component Oluşturalım</h1>
+      <p>Burası harici oluşturulan Component içeriği</p>
     </div>
   )
 }

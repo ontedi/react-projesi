@@ -1,11 +1,11 @@
 import './App.css';
-import Ders4CSSIslemleri from './ders4-css-islemleri.js'
+import Ders5ComponentOlusturalim from './ders5-component-olusturalim';
 
 function App() {
   return (
     <div className="ana-kapsul">
       <h1>App.js İçerisi</h1>
-      <Ders4CSSIslemleri />
+      <Ders5ComponentOlusturalim />
     </div>
   );
 }
