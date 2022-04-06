@@ -15,6 +15,6 @@ Ders 4 (https://www.ontedi.com/javascript/reactjs-ders-4-css-islemleri)
 - Inline CSS ile çalışma
 - Hem Inline hem de harici CSS dosyası ile çalışma
 
-Ders 5
+Ders 5 (https://www.ontedi.com/javascript/reactjs-ders-5-component-olusturalim)
 - Component oluşturalım
 - Oluşturduğumuz componenti include (çağırma) işlemi yapalım.
