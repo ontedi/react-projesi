@@ -2,7 +2,7 @@ import React from 'react'
 
 function Ders5ComponentOlusturalim() {
   return (
-    <div>
+    <div class="container">
       <p>Burası harici oluşturulan Component içeriği</p>
     </div>
   )

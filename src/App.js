@@ -1,11 +1,11 @@
 import './App.css';
-import Ders5ComponentOlusturalim from './ders5-component-olusturalim';
+import Ders6BootstrapCssIleCalisalim from './ders6-bootstrap-css-ile-calisalim';
 
 function App() {
   return (
-    <div className="ana-kapsul">
+    <div className="container">
       <h1>App.js İçerisi</h1>
-      <Ders5ComponentOlusturalim />
+      <Ders6BootstrapCssIleCalisalim />
     </div>
   );
 }
