@@ -1,11 +1,14 @@
 import './App.css';
-import Ders6BootstrapCssIleCalisalim from './ders6-bootstrap-css-ile-calisalim';
+import Ders8PropsNedir from './ders8-props-nedir';
 
 function App() {
+  const Ders8Isim = "Serkan";
+  const Ders8Soyad = "TOGAL";
+  const Ders8Yas = 37;
   return (
     <div className="container">
       <h1>App.js İçerisi</h1>
-      <Ders6BootstrapCssIleCalisalim />
+      <Ders8PropsNedir isim={Ders8Isim} soyad={Ders8Soyad} yas={Ders8Yas} />
     </div>
   );
 }
