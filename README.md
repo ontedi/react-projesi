@@ -18,3 +18,7 @@ Ders 4 (https://www.ontedi.com/javascript/reactjs-ders-4-css-islemleri)
 Ders 5 (https://www.ontedi.com/javascript/reactjs-ders-5-component-olusturalim)
 - Component oluşturalım
 - Oluşturduğumuz componenti include (çağırma) işlemi yapalım.
+
+Ders 6 (https://www.ontedi.com/javascript/reactjs-ders-6-bootstrap-css-ile-calisalim)
+- Bootstrap CSS kütüphanesini projeye ekleyelim.
+- Bootstrap kolon yapısı örneği ile çalışmayı görüntüleyelim.
