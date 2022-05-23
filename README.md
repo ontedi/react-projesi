@@ -22,3 +22,7 @@ Ders 5 (https://www.ontedi.com/javascript/reactjs-ders-5-component-olusturalim)
 Ders 6 (https://www.ontedi.com/javascript/reactjs-ders-6-bootstrap-css-ile-calisalim)
 - Bootstrap CSS kütüphanesini projeye ekleyelim.
 - Bootstrap kolon yapısı örneği ile çalışmayı görüntüleyelim.
+
+Ders 8 (https://www.ontedi.com/javascript/reactjs-ders-8-props-nedir)
+- Props yapısını anlayalım.
+- Props ile Componentler arası veri aktarımını sağlayalım.
