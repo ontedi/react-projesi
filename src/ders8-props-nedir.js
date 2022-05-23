@@ -2,25 +2,29 @@ import React, { Component } from 'react'
 
 class Ders8PropsNedir extends Component {
   render() {
-    console.log("this.props: " + this.props);
+    console.log("Propsları ekrana yaz: " + this.props);
     var strIsim = this.props.isim;
     var strSoyad = this.props.soyad;
-    const{isim, soyad} = this.props;
+    const{isim, soyad, yas, meslek} = this.props;
     return (
       <div>
         Props nedir öğrenelim.
         <br />
         Props ile gelen değişkenler:
         <br />
-        "isim:" {isim}
+        "isim: " {isim}
         <br />
-        "soyad:" {soyad}
+        "soyad: " {soyad}
         <br />
-        "this.props.yas:" {this.props.yas}
+        "yaş: " {yas}
         <br />
-        "strIsim:" {strIsim}
+        "meslek: " {meslek}
         <br />
-        "strSoyad:" {strSoyad}
+        "this.props.yas: " {this.props.yas}
+        <br />
+        "strIsim: " {strIsim}
+        <br />
+        "strSoyad: " {strSoyad}
       </div>
     )
   }
