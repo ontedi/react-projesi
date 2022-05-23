@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class Ders8PropsNedir extends Component {
   render() {
-    console.log("Propsları ekrana yaz: " + this.props);
+    console.log("Propsları konsola yaz: " + this.props);
     var strIsim = this.props.isim;
     var strSoyad = this.props.soyad;
     const{isim, soyad, yas, meslek} = this.props;
@@ -25,6 +25,8 @@ class Ders8PropsNedir extends Component {
         "strIsim: " {strIsim}
         <br />
         "strSoyad: " {strSoyad}
+        <br />
+        "Meslek Bilgisi: " {this.props.meslek}
       </div>
     )
   }
