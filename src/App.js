@@ -1,11 +1,11 @@
 import './App.css';
-import Ders6BootstrapCssIleCalisalim from './ders6-bootstrap-css-ile-calisalim';
+import Ders7FunctionalComponent from './ders7-functional-component';
 
 function App() {
   return (
     <div className="container">
       <h1>App.js İçerisi</h1>
-      <Ders6BootstrapCssIleCalisalim />
+      <Ders7FunctionalComponent />
     </div>
   );
 }
