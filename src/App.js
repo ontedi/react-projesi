@@ -1,19 +1,15 @@
 import './App.css';
 import React  from 'react';
-import Ders8PropsNedir from './ders8-props-nedir';
+import Z1Constructor from './z1-constructor';
 
 function App() {
-  const Ders8Isim = "Serkan";
-  const Ders8Soyad = "TOGAL";
-  const Ders8Yas = 37;
   return (
     <div className="container">
       <h1>App.js İçerisi</h1>
-      <Ders8PropsNedir isim={Ders8Isim} soyad={Ders8Soyad} yas={Ders8Yas} meslek="Yazılım" />
+      <Z1Constructor />
     </div>
   );
 }
-
 
 /*
 class App extends Component
