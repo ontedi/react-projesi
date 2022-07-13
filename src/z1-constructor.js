@@ -9,7 +9,7 @@ export default class Z1Constructor extends Component {
   render() {
     console.log("render çalıştı.");
     return (
-      <div>Constructor yapısını inceleyelim.</div>
+      <div>Constructor.js dosyasının içerisi</div>
     )
   }
 }
