@@ -1,12 +1,12 @@
 import './App.css';
 import React  from 'react';
-import Z1Constructor from './z1-constructor';
+import Z2SetState from './z2-setstate';
 
 function App() {
   return (
     <div className="container">
       <h1>App.js İçerisi</h1>
-      <Z1Constructor />
+      <Z2SetState deneme="değer gelsin." />
     </div>
   );
 }
