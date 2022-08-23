@@ -1,12 +1,13 @@
 import './App.css';
 import React  from 'react';
-import Z2SetState from './z2-setstate';
+import Z3StateLess from './z3-StateLess';
 
 function App() {
   return (
     <div className="container">
       <h1>App.js İçerisi</h1>
-      <Z2SetState deneme="değer gelsin." />
+
+      <Z3StateLess />
     </div>
   );
 }
