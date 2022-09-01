@@ -24,7 +24,7 @@
 }
 
 
-.yorumlar-kapsul{border:1px solid #ddd;padding:5px;margin-bottom:10px;}
+.yorumlar-kapsul{border:1px solid #ddd;padding:5px;margin-bottom:10px;margin-top:20px;}
 .yorumlar-kapsul .yorum{display:block;margin-bottom:10px;border-bottom:1px solid #dedede;padding-bottom:10px;}
 .yorumlar-kapsul .yorum:last-child{border-bottom:none;}
 .yorumlar-kapsul .yorum .sol .isim{display:block;}

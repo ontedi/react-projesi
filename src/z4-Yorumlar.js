@@ -5,7 +5,7 @@ import React from 'react';
     <div className='yorum d-flex'>
         <div className='sol col-md-2'>
             <div className='isim'>{isim}</div>
-            <div className='avatar'><img src={avatar} /></div>
+            <div className='avatar'><img src={avatar} alt='' /></div>
             <div className='tarih'>{gun} gün önce</div>
         </div>
         <div className='sag col-md-10'>{mesaj}</div>

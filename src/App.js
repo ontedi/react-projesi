@@ -11,6 +11,7 @@ function App() {
         <Z4Yorumlar isim="Serkan" mesaj="react ile ilgili bu yorum harika" gun="3" avatar='https://www.cizgi.site/_d/avatar/5.png' />
         <Z4Yorumlar isim="Ufuk" mesaj="Nativescript hepsini yener" gun="2" avatar='https://www.cizgi.site/_d/avatar/1.png' />
         <Z4Yorumlar isim="Cagan" mesaj="Tabela işinde iyi para var." gun="44" avatar='https://www.cizgi.site/_d/avatar/2.png' />
+        <Z4Yorumlar isim="Misafir" mesaj="Tabela lazım mı abi" gun="21" avatar='https://www.cizgi.site/_d/avatar/10.png' />
       </div>
     </div>
   );
