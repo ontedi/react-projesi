@@ -1,8 +1,21 @@
 import './App.css';
-import React  from 'react';
+import React, {Component}  from 'react';
+import OrnekYorumlarListe from './z5-ornek-yorumlar/Liste';
+import OrnekYorumlarForm from './z5-ornek-yorumlar/Form';
+/*
+function App() {
+  return (
+    <div className="container">
+      <h1>App.js İçerisi</h1>
+      <OrnekYorumlarListe />
+      <OrnekYorumlarForm />
+    </div>
+  );
+}
+*/
+
+/*
 import Z4Yorumlar from './z4-Yorumlar';
-
-
 function App() {
   return (
     <div className="container">
@@ -16,18 +29,41 @@ function App() {
     </div>
   );
 }
+*/
 
-/*
+
 class App extends Component
 {
+  state = {
+    kisiler:[
+      {
+      isim: 'Serkan',
+      soyisim: 'Deneme',
+      telefon: '34424234'
+      },
+      {
+        isim: 'Ahmed',
+        soyisim: 'Deneme',
+        telefon: '567567567'
+      },
+      {
+        isim: 'Asmin',
+        soyisim: 'Deneme',
+        telefon: '76867768'
+      }
+    ]
+  }
+
   render(){
     return (
         <div className="container">
-          Ders 2: Merhaba Dünya
+          <h1>App.js İçerisi</h1>
+          <OrnekYorumlarListe kisiler={this.state.kisiler} />
+          <OrnekYorumlarForm />
         </div>
     );
   }
 }
-*/
+
 
 export default App;

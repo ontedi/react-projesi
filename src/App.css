@@ -29,3 +29,11 @@
 .yorumlar-kapsul .yorum:last-child{border-bottom:none;}
 .yorumlar-kapsul .yorum .sol .isim{display:block;}
 .yorumlar-kapsul .yorum .sol .tarih{display:block;font-size:10px;font-style: italic;}
+
+
+
+.ornek-yorumlar-liste-kapsul{margin-top:20px;width:400px;}
+.ornek-yorumlar-liste-kapsul .ara{width:100%;}
+.ornek-yorumlar-liste-kapsul .input{width:100%;margin-bottom:5px;}
+.ornek-yorumlar-liste-kapsul ul{margin-top:10px;list-style-type:none;}
+.ornek-yorumlar-liste-kapsul ul li span{display:inline-block;margin-right:10px;}

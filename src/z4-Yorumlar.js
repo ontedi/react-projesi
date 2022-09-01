@@ -13,4 +13,4 @@ import React from 'react';
   )
 }
 
-export default  z4Yorumlar;
+export default z4Yorumlar;
