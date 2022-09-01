@@ -22,3 +22,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+.yorumlar-kapsul{border:1px solid #ddd;padding:5px;margin-bottom:10px;}
+.yorumlar-kapsul .yorum{display:block;margin-bottom:10px;border-bottom:1px solid #dedede;padding-bottom:10px;}
+.yorumlar-kapsul .yorum:last-child{border-bottom:none;}
+.yorumlar-kapsul .yorum .sol .isim{display:block;}
+.yorumlar-kapsul .yorum .sol .tarih{display:block;font-size:10px;font-style: italic;}
