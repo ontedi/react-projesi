@@ -57,7 +57,10 @@ class Form extends Component {
       kisiler: [...prevState.kisiler, kisi]
     }))
   }
+  fnKisiAra()
+  {
 
+  }
 
 
   render() {
@@ -72,6 +75,21 @@ class Form extends Component {
             <br />
             <button onClick={this.fnKisiEkle}>Ekle</button>
         </div>
+        <br />
+        <input className='ara' type="text" name='filtre' id='filtre' placeholder='Ad veya telefon numrası giriniz.' />
+        <button onClick={this.fnKisiAra}>Ara</button>
+        <br />
+        <ul>
+            {
+                this.state.kisiler.map(kisi => 
+                    <li key={kisi.telefon}>
+                        <span className='isim'>{kisi.isim}</span>
+                        <span className='soyisim'>{kisi.soyisim}</span>
+                        <span className='telefon'>{kisi.telefon}</span>
+                    </li>
+                )
+            }
+        </ul>
       </div>
     )
   }
