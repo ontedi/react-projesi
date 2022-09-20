@@ -34,6 +34,7 @@ function App() {
 
 class App extends Component
 {
+  /*
   state = {
     kisiler:[
       {
@@ -53,12 +54,12 @@ class App extends Component
       }
     ]
   }
+  */
 
   render(){
     return (
         <div className="container">
           <h1>App.js İçerisi</h1>
-          <OrnekYorumlarListe kisiler={this.state.kisiler} />
           <OrnekYorumlarForm />
         </div>
     );
