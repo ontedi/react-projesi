@@ -2,7 +2,15 @@ import React, { Component } from 'react'
 
 class Form extends Component {
 
-  state = {
+  state = 
+    {
+    kisi: 
+      {
+        isim: '',
+        soyisim: '',
+        telefon: ''
+      },
+
     kisiler:[
       {
       isim: 'Serkan',
@@ -25,12 +33,15 @@ class Form extends Component {
   constructor(props)
   {
     super(props);
-    this.onChange = this.onChange.bind(this);
+    this.fnKisiDegistir = this.fnKisiDegistir.bind(this);
     this.fnKisiEkle = this.fnKisiEkle.bind(this);
   }
   
-  onChange(event)
+  fnKisiDegistir(event)
   {
+    console.log("log - event - " + event);
+
+
     //console.log("log - event - " + event);
     //console.log("log - event.target - " + event.target);
     //console.log("log - event.target.getAttribute - class - " + event.target.getAttribute("class"));
@@ -53,11 +64,11 @@ class Form extends Component {
     return (
       <div className='ornek-yorumlar-liste-kapsul'>
         <div>
-            <input className='ad input' onChange={this.onChange} value={this.state.ad} type="text" placeholder='Ad giriniz.' />
+            <input className='ad input' onChange={this.fnKisiDegistir} value={this.state.ad} type="text" placeholder='Ad giriniz.' />
             <br />
-            <input className='soyad input' onChange={this.onChange} value={this.state.soyad} type="text" placeholder='Soyad giriniz.' />
+            <input className='soyad input' onChange={this.fnKisiDegistir} value={this.state.soyad} type="text" placeholder='Soyad giriniz.' />
             <br />
-            <input className='telefon input' onChange={this.onChange} value={this.state.telefon} type="text" placeholder='Telefon giriniz.' />
+            <input className='telefon input' onChange={this.fnKisiDegistir} value={this.state.telefon} type="text" placeholder='Telefon giriniz.' />
             <br />
             <button onClick={this.fnKisiEkle}>Ekle</button>
         </div>
