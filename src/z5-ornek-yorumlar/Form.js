@@ -35,11 +35,24 @@ class Form extends Component {
     super(props);
     this.fnKisiDegistir = this.fnKisiDegistir.bind(this);
     this.fnKisiEkle = this.fnKisiEkle.bind(this);
+    this.fnFormGonder = this.fnFormGonder.bind(this);
   }
   
   fnKisiDegistir(event)
   {
+    //var strId = event.target.getAttribute("id");
+
+    //console.log("strId - " + strId);
+
+    /*
+    var kisi = {isim: 'Murat',soyisim: 'Deneyci',telefon: '89797057'};
+    this.setState({
+      kisi: kisi
+    })
+
+
     console.log("log - event - " + event);
+    */
 
 
     //console.log("log - event - " + event);
@@ -52,29 +65,35 @@ class Form extends Component {
 
   fnKisiEkle()
   {
-    var kisi = {isim: 'Murat',soyisim: 'Deneyci',telefon: '89797057'};
-    this.setState(prevState => ({
-      kisiler: [...prevState.kisiler, kisi]
-    }))
+
   }
   fnKisiAra()
   {
 
   }
 
+  fnFormGonder(event) {
+    event.preventDefault();
+    var form_data = new FormData(document.getElementById("formKisiler"));
+    console.log("form_data - " + form_data);
+    console.log("ad - " + form_data.get('ad'));
+    console.log("soyad - " + form_data.get('soyad')); 
+    console.log("telefon - " + form_data.get('telefon'));
+  }
+
 
   render() {
     return (
       <div className='ornek-yorumlar-liste-kapsul'>
-        <div>
-            <input className='ad input' onChange={this.fnKisiDegistir} value={this.state.ad} type="text" placeholder='Ad giriniz.' />
+        <form onSubmit={this.fnFormGonder} id="formKisiler">
+            <input className='ad input' name="ad" onChange={this.fnKisiDegistir} value={this.state.kisi.ad} type="text" placeholder='Ad giriniz.' />
             <br />
-            <input className='soyad input' onChange={this.fnKisiDegistir} value={this.state.soyad} type="text" placeholder='Soyad giriniz.' />
+            <input className='soyad input' name="soyad" onChange={this.fnKisiDegistir} value={this.state.kisi.soyad} type="text" placeholder='Soyad giriniz.' />
             <br />
-            <input className='telefon input' onChange={this.fnKisiDegistir} value={this.state.telefon} type="text" placeholder='Telefon giriniz.' />
+            <input className='telefon input' name="telefon" onChange={this.fnKisiDegistir} value={this.state.kisi.telefon} type="text" placeholder='Telefon giriniz.' />
             <br />
-            <button onClick={this.fnKisiEkle}>Ekle</button>
-        </div>
+            <button onClick={this.fnFormGonder}>Ekle</button>
+        </form>
         <br />
         <input className='ara' type="text" name='filtre' id='filtre' placeholder='Ad veya telefon numrası giriniz.' />
         <button onClick={this.fnKisiAra}>Ara</button>
